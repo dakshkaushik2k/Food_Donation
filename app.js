@@ -59,7 +59,7 @@ app.use((req, res) => {
   res.status(404).render("404page", { title: "Page not found" });
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT = 5000;
 
 connectDB()
   .then(() => {
